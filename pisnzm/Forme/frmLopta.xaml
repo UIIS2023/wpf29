@@ -1,0 +1,26 @@
+﻿<Window x:Class="pisnzm.Frame.frmLopta"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pisnzm.Frame"
+        mc:Ignorable="d"
+        Title="frmLopta" Height="350" Width="300">
+    <Grid RenderTransformOrigin="0.497,0.517">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="49*"/>
+            <ColumnDefinition Width="51*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="txtMaterijalLopte" HorizontalAlignment="Left" Margin="116,34,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="140" RenderTransformOrigin="0.494,0.689" Height="18" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="txtBrendLopte" HorizontalAlignment="Left" Margin="116,74,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="140" Height="18" Grid.ColumnSpan="2"/>
+        <TextBox x:Name="txtVelicinaLopte" HorizontalAlignment="Left" Margin="116,115,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="140" Height="18" Grid.ColumnSpan="2"/>
+        <Label Content="Materijal lopte: " HorizontalAlignment="Left" Margin="10,30,0,0" VerticalAlignment="Top" Width="101"/>
+        <Label Content="Brend lopte: " HorizontalAlignment="Left" Margin="10,70,0,0" VerticalAlignment="Top"/>
+        <Label Content="Velicina lopte: " HorizontalAlignment="Left" Margin="10,111,0,0" VerticalAlignment="Top"/>
+        <ComboBox x:Name="cmbIgrac" HorizontalAlignment="Left" Margin="90,0,0,0" VerticalAlignment="Center" Width="120" Grid.ColumnSpan="2" SelectedValuePath="IgracID"/>
+        <Label Content="Igrac: " HorizontalAlignment="Left" Margin="11,0,0,0" VerticalAlignment="Center"/>
+        <Button x:Name="btnSacuvaj" Content="Sacuvaj" HorizontalAlignment="Left" Margin="71,281,0,0" VerticalAlignment="Top" Click="btnSacuvaj_Click"/>
+        <Button x:Name="btnOtkazi" Content="Otkazi" HorizontalAlignment="Left" Margin="48,281,0,0" VerticalAlignment="Top" Grid.Column="1" Click="btnOtkazi_Click"/>
+
+    </Grid>
+</Window>

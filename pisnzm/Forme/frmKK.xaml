@@ -1,0 +1,20 @@
+﻿<Window x:Class="pisnzm.Frame.frmKK"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:pisnzm.Frame"
+        mc:Ignorable="d"
+        Title="frmKK" Height="350" Width="300">
+    <Grid>
+        <Label Content="Ime kluba: " HorizontalAlignment="Left" Margin="28,37,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtImeKluba" HorizontalAlignment="Left" Margin="142,41,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Godina osnivanja: " HorizontalAlignment="Left" Margin="28,77,0,0" VerticalAlignment="Top"/>
+        <Label Content="Drzava kluba: " HorizontalAlignment="Left" Margin="28,114,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="txtGodinaOsnivanja" HorizontalAlignment="Left" Margin="142,81,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtDrzavaKluba" HorizontalAlignment="Left" Margin="142,122,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnSacuvaj" Content="Sacuvaj" HorizontalAlignment="Left" Margin="47,257,0,0" VerticalAlignment="Top" Click="btnSacuvaj_Click"/>
+        <Button x:Name="btnOtkazi" Content="Otkazi" HorizontalAlignment="Left" Margin="209,257,0,0" VerticalAlignment="Top" Click="btnOtkazi_Click"/>
+
+    </Grid>
+</Window>
